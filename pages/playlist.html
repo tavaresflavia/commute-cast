@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CommuteCast</title>
+    <link rel="stylesheet" href="../styles/playlist.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+  </head> 
+  <body>
+    <header class="header">
+      <nav class="nav">
+        
+        <a href="../index.html" class="nav__logo-link">
+          <div class="nav__logo-box"><img
+            class="nav__logo"
+            src="../assets/logo.png" 
+            alt="logo" /></div>
+        </a>
+        <ul class="nav__link-bar">
+          <li class="nav__link-box ">
+            <a href="../index.html" class="nav__link ">
+              Podcast
+            </a>
+          </li>
+          <li class="nav__link-box nav__link-box--active">
+            <a href="./playlist.html" class="nav__link nav__link--active">Playlist</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      
+
+      
+      
+       
+
+      <section class="cards">
+        
+        <div class="card--inactive">
+          <h2 class="form-section__title">Coming soon!</h2>
+          <p>We're busy working behind the scenes to bring you an amazing experience. This section of our website is    currently under construction and will be ready </p>
+          <p>
+
+            Stay tuned for exciting updates and new features. In the meantime, feel free to explore the rest of our site. We appreciate your patience and can't wait to unveil what we have in store for you.</p>
+            
+           <p>Thank you for your understanding!</p>
+        </div>
+
+
+      </section>
+      <section class="form-section">
+        <div class="form-section__box">
+          <h2 class="form-section__title">Set up your playlist!</h2>
+          <div class="form-section__form-box">
+            <form class="form-section__form" id = "form-section__form">
+              <label class="form-section__label" for="name">
+                DURATION
+              </label>
+              <input
+                type="text"
+                class="form-section__duration-input"
+                name="name"
+                id="name"
+                placeholder="min" />
+              <label class="form-section__label " for="genre">
+                GENRE
+              </label>
+              <input
+                name="genre"
+                id="genre"
+                class="form-section__genre-input"
+                placeholder="choose a genre"></input>
+              <div class="form-section__button-box">
+                <button form = "form-section__form" class="form-section__button button" type="submit">
+                  PLAY
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__box">
+        <h2 class="footer__title">Join the Community</h2>
+
+        <div class="footer__social-bar">
+          <div class="footer__social-icon">
+            <a href="http://instagram.com">
+              <img src="../assets/Icon-instagram.svg" alt="instagram" />
+            </a>
+          </div>
+          <div class="footer__social-icon">
+            <a href="http://facebook.com">
+              <img src="../assets/Icon-facebook.svg" alt="facebook" />
+            </a>
+          </div>
+          <div class="footer__social-icon">
+            <a href="http://twitter.com">
+              <img src="../assets/Icon-twitter.svg" alt="twitter" />
+            </a>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          Copyright CommuteCast © 2023 All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="../scripts/playlist.js"></script>
+  </body>
+</html>
